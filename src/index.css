@@ -1,0 +1,156 @@
+/*MonserratArabic*/
+@font-face {
+  font-family: "MontserratArabic";
+  font-weight: 100;
+  src: local("MontserratArabic"),
+    url(./assets/fonts/MonserratArabic/ArbFONTS-Montserrat-Arabic-Thin.ttf)
+      format("truetype");
+}
+@font-face {
+  font-family: "MontserratArabic";
+  font-weight: 200;
+  src: local("MontserratArabic"),
+    url(./assets/fonts/MonserratArabic/ArbFONTS-Montserrat-Arabic-ExtraLight.ttf)
+      format("truetype");
+}
+@font-face {
+  font-family: "MontserratArabic";
+  font-weight: 300;
+  src: local("MontserratArabic"),
+    url(./assets/fonts/MonserratArabic/ArbFONTS-Montserrat-Arabic-Light.ttf)
+      format("truetype");
+}
+@font-face {
+  font-family: "MontserratArabic";
+  font-weight: 400;
+  src: local("MontserratArabic"),
+    url(./assets/fonts/MonserratArabic/ArbFONTS-Montserrat-Arabic-Regular.ttf)
+      format("truetype");
+}
+@font-face {
+  font-family: "MontserratArabic";
+  font-weight: 500;
+  src: local("MontserratArabic"),
+    url(./assets/fonts/MonserratArabic/ArbFONTS-Montserrat-Arabic-Medium.ttf)
+      format("truetype");
+}
+@font-face {
+  font-family: "MontserratArabic";
+  font-weight: 600;
+  src: local("MontserratArabic"),
+    url(./assets/fonts/MonserratArabic/ArbFONTS-Montserrat-Arabic-SemiBold.ttf)
+      format("truetype");
+}
+@font-face {
+  font-family: "MontserratArabic";
+  font-weight: 700;
+  src: local("MontserratArabic"),
+    url(./assets/fonts/MonserratArabic/ArbFONTS-Montserrat-Arabic-Bold.ttf)
+      format("truetype");
+}
+@font-face {
+  font-family: "MontserratArabic";
+  font-weight: 800;
+  src: local("MontserratArabic"),
+    url(./assets/fonts/MonserratArabic/ArbFONTS-Montserrat-Arabic-ExtraBold.ttf)
+      format("truetype");
+}
+@font-face {
+  font-family: "MontserratArabic";
+  font-weight: 900;
+  src: local("MontserratArabic"),
+    url(./assets/fonts/MonserratArabic/ArbFONTS-Montserrat-Arabic-Black.ttf)
+      format("truetype");
+}
+/*Monserrat*/
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 100;
+  src: local("Montserrat"),
+    url(./assets/fonts/Monserrat/Montserrat-Thin.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 200;
+  src: local("Montserrat"),
+    url(./assets/fonts/Monserrat/Montserrat-ExtraLight.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 300;
+  src: local("Montserrat"),
+    url(./assets/fonts/Monserrat/Montserrat-Light.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 400;
+  src: local("Montserrat"),
+    url(./assets/fonts/Monserrat/Montserrat-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 500;
+  src: local("Montserrat"),
+    url(./assets/fonts/Monserrat/Montserrat-Medium.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 600;
+  src: local("Montserrat"),
+    url(./assets/fonts/Monserrat/Montserrat-SemiBold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 700;
+  src: local("Montserrat"),
+    url(./assets/fonts/Monserrat/Montserrat-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 800;
+  src: local("Montserrat"),
+    url(./assets/fonts/Monserrat/Montserrat-ExtraBold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 900;
+  src: local("Montserrat"),
+    url(./assets/fonts/Monserrat/Montserrat-Black.ttf) format("truetype");
+}
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  text-align: center;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  color: #f9f9f9;
+  text-decoration: none;
+}
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  body {
+    font-size: 14px;
+  }
+}
